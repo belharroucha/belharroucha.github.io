@@ -3,49 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <title>FAGOSA – تمور فاخرة</title>
-  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- Language Switch -->
+<div class="lang-switch">
+  <button onclick="setLang('ar')">العربية</button>
+  <button onclick="setLang('fr')">Français</button>
+</div>
+
+<!-- HERO -->
 <header>
   <div class="container">
-    <h1>FAGOSA</h1>
-    <p>تمور فاخرة مختارة بعناية</p>
-    <a href="https://wa.me/212600000000" class="btn">اطلب عبر واتساب</a>
+    <h1 data-ar="تمور فاخرة تليق بذوقك" data-fr="Dattes premium pour un goût d’exception">
+      تمور فاخرة تليق بذوقك
+    </h1>
+    <p data-ar="اختيار دقيق، جودة عالية، وتغليف أنيق"
+       data-fr="Sélection raffinée, qualité supérieure et emballage élégant">
+       اختيار دقيق، جودة عالية، وتغليف أنيق
+    </p>
+    <a href="https://wa.me/212600000000" class="btn"
+       data-ar="اطلب الآن عبر واتساب"
+       data-fr="Commander via WhatsApp">
+       اطلب الآن عبر واتساب
+    </a>
   </div>
 </header>
 
-<section class="about">
+<!-- WHY -->
+<section>
   <div class="container">
-    <h2>لماذا FAGOSA؟</h2>
-    <p>
-      نقدم لكم أجود أنواع التمور بتغليف أنيق يليق بالمناسبات الخاصة والهدايا الراقية.
-    </p>
+    <h2 data-ar="لماذا FAGOSA؟" data-fr="Pourquoi FAGOSA ?">لماذا FAGOSA؟</h2>
+    <div class="grid">
+      <div class="card" data-ar="🌴 تمور مختارة بعناية"
+           data-fr="🌴 Dattes soigneusement sélectionnées">
+           🌴 تمور مختارة بعناية
+      </div>
+      <div class="card" data-ar="🎁 تغليف فاخر للهدايا"
+           data-fr="🎁 Emballage luxueux pour cadeaux">
+           🎁 تغليف فاخر للهدايا
+      </div>
+      <div class="card" data-ar="🚚 توصيل سريع وآمن"
+           data-fr="🚚 Livraison rapide et sécurisée">
+           🚚 توصيل سريع وآمن
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="features">
-  <div class="container grid">
-    <div class="card">🌴 جودة عالية</div>
-    <div class="card">🎁 تغليف فاخر</div>
-    <div class="card">🚚 توصيل سريع</div>
-  </div>
-</section>
-
-<section class="contact">
+<!-- CTA -->
+<section class="cta">
   <div class="container">
-    <h2>تواصل معنا</h2>
-    <p>نحن في خدمتك عبر واتساب أو إنستغرام</p>
-    <a href="https://wa.me/212600000000" class="btn">واتساب</a>
-    <a href="https://instagram.com/yourpage" class="btn outline">إنستغرام</a>
+    <h2 data-ar="اجعل لحظاتك مميزة مع FAGOSA"
+        data-fr="Rendez vos moments uniques avec FAGOSA">
+        اجعل لحظاتك مميزة مع FAGOSA
+    </h2>
+    <a href="https://wa.me/212600000000" class="btn big"
+       data-ar="تواصل معنا الآن"
+       data-fr="Contactez-nous maintenant">
+       تواصل معنا الآن
+    </a>
   </div>
 </section>
 
 <footer>
-  <p>© 2026 FAGOSA – جميع الحقوق محفوظة</p>
+  <p>© 2026 FAGOSA – All rights reserved</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
 
