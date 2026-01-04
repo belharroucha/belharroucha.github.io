@@ -219,3 +219,7 @@ footer {
   height: 100%;
   object-fit: contain; /* مهم */
 }
+.product-image img:hover {
+  transform: scale(1.05);
+  transition: .4s ease;
+}
