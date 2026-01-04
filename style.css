@@ -180,3 +180,9 @@ footer {
   box-shadow: 0 10px 25px rgba(0,0,0,0.25);
   z-index: 999;
 }
+.countdown {
+  font-size: 24px;
+  font-weight: bold;
+  color: #b02a37;
+  margin-bottom: 25px;
+}
